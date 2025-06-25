@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 
 type ProductInputProps = {
   onAdd: (name: string, qty: number) => void;
