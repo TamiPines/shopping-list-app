@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "properties": {
+      "fullName": { "type": "text" },
+      "address": { "type": "text" },
+      "email": { "type": "keyword" },
+      "cart": { "type": "object", "enabled": true },
+      "createdAt": { "type": "date" }
+    }
+  }
+}
